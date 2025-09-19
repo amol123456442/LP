@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Study Download</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+
+
+/* Optional: ensure inputs and labels inherit same color */
+label, p, h1, h2, h3, h4, h5, h6, li {
+  color: inherit !important;
+}
+    .hero-section {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    .form-card {
+      background: #fff;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      border: 1px solid #f0f0f0;
+    }
+
+    .form-title {
+      color: #254D70;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .form-title::after {
+      content: "";
+      width: 200px;
+      height: 3px;
+      background: #254D70;
+      display: block;
+      margin: 10px auto 0;
+      border-radius: 5px;
+    }
+
+    .btn-download {
+      background: #254D70;
+      color: #fff;
+      font-weight: 600;
+      padding: 12px;
+      border-radius: 8px;
+      transition: 0.3s;
+      font-size: 1rem;
+    }
+
+    .btn-download:hover {
+      background: #1c3d59;
+      transform: translateY(-2px);
+      color: #fff;
+    }
+
+    .privacy-text {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .logo {
+      max-width: 180px;
+    }
+
+    .left-box {
+      padding: 2rem;
+      border-radius: 1rem;
+      background: #f9fdfd;
+      border: 1px solid #eef5f5;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.03);
+    }
+
+    .left-box h3 {
+      color: #254D70;
+    }
+
+    .left-box p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    img.case-img {
+      border-radius: 1rem;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="container py-4 text-start">
+    <img src="https://thetechgossip.com/Images/arcadia-logo.png" alt="Arcadia Logo" class="logo">
+  </div>
+
+  <!-- Hero Section -->
+  <div class="container hero-section">
+    <div class="row g-5 align-items-center">
+
+      <!-- Left Side (Image + Text) -->
+      <div class="col-lg-6">
+        <div class="left-box">
+          <div class="text-center mb-4">
+            <img src="https://thetechgossip.com/Images/w_aaaa17711c8.jpg"
+              alt="Case Study" class="img-fluid case-img mb-4" width="80%" height="auto">
+          </div>
+          <h3 class="fw-bold">
+            See how innovative universities prioritized data by purpose instead of source
+          </h3>
+          <p>
+            Arcadia University needed a system to access relevant data for compliance and regulatory requirements.
+            Nuventive provided a flexible, accessible, and scalable solution.
+          </p>
+          <p>
+            Learn how Arcadia improved decision-making, created consistency in planning, and fostered
+            a culture of continuous improvement using Nuventive’s technology.
+          </p>
+               <p>
+            Learn how Arcadia improved decision-making, created consistency in planning, and fostered
+            a culture of continuous improvement using Nuventive’s technology.
+          </p>
+               <p>
+            Learn how Arcadia improved decision-making, created consistency in planning, and fostered
+            a culture of continuous improvement using Nuventive’s technology.
+          </p>
+                 <p>
+            Learn how Arcadia improved decision-making: 
+          
+                <ul>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, neque?</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, neque?</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, neque?</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, neque?</li>
+            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, neque?</li>
+        
+          </ul>
+          </p>
+      
+        </div>
+      </div>
+
+      <!-- Right Side (Form) -->
+      <div class="col-lg-6">
+        <div class="form-card">
+          <h4 class="form-title">Download the Case Study</h4>
+          <form id="infoForm" class="needs-validation" novalidate>
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <label class="form-label">First Name *</label>
+                <input type="text" class="form-control" id="firstName" required>
+              </div>
+
+              <div class="col-md-6">
+                <label class="form-label">Last Name *</label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Email Address *</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Country/Region *</label>
+                <select class="form-select" id="country" required>
+                  <option value="">Select Country/Region</option>
+                  <option>India</option>
+                  <option>United States</option>
+                  <option>United Kingdom</option>
+                  <option>Canada</option>
+                  <option>Australia</option>
+                </select>
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Company</label>
+                <input type="text" class="form-control" id="company">
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Industry</label>
+                <select class="form-select" id="industry">
+                  <option value="">Select Industry</option>
+                  <option>Aerospace</option>
+                  <option>Agriculture</option>
+                  <option>Education</option>
+                  <option>Technology</option>
+                </select>
+              </div>
+
+              <div class="col-md-12">
+                <label class="form-label">Job Role</label>
+                <select class="form-select" id="jobRole">
+                  <option value="">Select Job Role</option>
+                  <option>Manager</option>
+                  <option>Developer</option>
+                  <option>Designer</option>
+                </select>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="subscribe" required>
+                  <label class="form-check-label privacy-text" for="subscribe">
+                    I agree to the <a href="https://www.arcadia.edu/privacy-policy" target="_blank">privacy policy</a>
+                    and consent to receive marketing updates. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab consequatur quisquam aliquid natus fugit. Obcaecati mollitia ducimus unde doloribus quam!
+                  </label>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="btn btn-download w-100">
+                   Download Now
+                </button>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script>
+    document.getElementById("infoForm").addEventListener("submit", function (event) {
+      event.preventDefault();
+      if (!this.checkValidity()) {
+        this.classList.add("was-validated");
+        return;
+      }
+      const pdfUrl = "https://thetechgossip.com/pdf/See-how-innovative-univ-prioritized-data-by-purpose-instead-of-source-to-drive-success.pdf";
+      const a = document.createElement("a");
+      a.href = pdfUrl;
+      a.download = "Case-Study.pdf";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+  </script>
+
+</body>
+</html>
